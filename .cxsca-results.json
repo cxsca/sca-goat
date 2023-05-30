@@ -1,1 +1,1527 @@
-{"ScanMetadata":{"StartTime":"2023-04-19T13:41:49.619745Z","ScanPath":"/Users/danielgreenspan/RiderProjects/sca-resolver/src/ScaResolver/bin/Debug/net6.0/ex4","ScanArguments":{"ProjectDownloadUrl":null,"ScanId":"2efbb039-a68d-4cd7-a715-067cc58331e5","ProjectId":"2dd56fc1-751f-4469-8032-afa2767ae416","TenantId":"0","ExecutionId":"0","ExcludePatterns":{"Patterns":[]},"IgnoreDevDependencies":false,"ShouldResolveDependenciesLocally":true,"NpmPartialResultsFallbackScriptPath":null,"EnvironmentVariables":{},"ShouldUseHoistFlagWhenUseLerna":true,"ShouldResolvePartialResults":false,"ProjectRelativePathsToPythonVersionsMapping":{},"AdditionalScanArguments":{},"ExtractArchives":["zip","ear","war"],"ExtractDepth":1,"GradleExcludedScopes":[],"GradleIncludedScopes":[],"GradleDevDependenciesScopes":[],"GradleModulesToIgnore":[],"GradleModulesToInclude":[],"GradlePluginDependenciesScopes":[],"Proxies":{},"PipDepTreeVersion":null,"NugetCliPath":"","IvyReportTarget":null,"IvyReportFilesDir":null,"EnableContainerScan":true,"ContainersImages":["nginx:latest"],"ContainersImagesCachePath":"/Users/danielgreenspan/RiderProjects/sca-resolver/src/ScaResolver/bin/Debug/net6.0/cache","OverrideDefaultExcludePattern":false,"ScanTimeoutInSeconds":0,"IsUsingSyft":false,"UsingDeprecatedConfigurationIni":false,"NetRcPath":null,"RequestTimestampUtc":"0001-01-01T00:00:00"},"ScanDiagnostics":{"EnvironmentVariables":"","ResolveDependenciesForFile[nginx:latest].scopeMilliseconds":11513,"scopeMilliseconds":11955,"FolderAnalyzer.scopeMilliseconds":97,"FolderAnalyzer.analyzedFilesCount":1.0,"ShouldResolvePartialResults":"False","ShouldResolveDependenciesLocally":true},"PackageType":"","PackageName":"","PackageVersion":""},"AnalyzedFiles":[{"RelativePath":".DS_Store","Size":6148,"Fingerprints":[{"Type":"Sha1","Value":"ed1ac977bb9736f5e506ee9a7efe0f5400dd3ac3"}]}],"DependencyResolutionResults":[],"ContainerResolutionResults":{"ImagePaths":[{"NodeId":"77ed6c29-dfc4-43c4-baef-fe4f338da68b","Path":"N/A","Stages":[{"ContainerRegistry":1,"ContainerRegistryHost":"registry.hub.docker.com","ImageName":"nginx","ImageTag":"latest","ImageId":"sha256:9e7e7b26c784556498f584508123ae46da82b4915e262975893be4c8ec8009a5","Name":"","LayerId":"f01669c1d8570cefca5a1c09914dfa1ae3736053ab4571353c2a584b5b1119ca","Distribution":"debian:11"}]}],"Layers":{"18bc48cd0013ead0fc07f783a1abd2fa773a786ec886c068e759a930ecae6e06":{"ParentLayerId":"","Packages":[]},"3b7108d2aa0842520eeda0c92851c110b88fec39d145f4260c04c7bcdf951477":{"ParentLayerId":"18bc48cd0013ead0fc07f783a1abd2fa773a786ec886c068e759a930ecae6e06","Packages":[{"Name":"adduser","Version":"3.118","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"apt","Version":"2.2.4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"base-files","Version":"11.1+deb11u6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"base-passwd","Version":"3.5.51","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"bash","Version":"5.1-2+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"bsdutils","Version":"1:2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"ca-certificates","Version":"20210119","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"coreutils","Version":"8.32-4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"curl","Version":"7.74.0-1.3+deb11u7","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"dash","Version":"0.5.11+git20200708+dd9ef66-5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"debconf","Version":"1.5.77","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"debian-archive-keyring","Version":"2021.1.1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"debianutils","Version":"4.11.2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"diffutils","Version":"1:3.7-5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"dpkg","Version":"1.20.12","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"e2fsprogs","Version":"1.46.2-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"findutils","Version":"4.8.0-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"fontconfig-config","Version":"2.13.1-4.2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"fonts-dejavu-core","Version":"2.37-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"gcc-10-base","Version":"10.2.1-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"gcc-9-base","Version":"9.3.0-22","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"gettext-base","Version":"0.21-4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"gpgv","Version":"2.2.27-2+deb11u2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"grep","Version":"3.6-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"gzip","Version":"1.10-4+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"hostname","Version":"3.23","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"init-system-helpers","Version":"1.60","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libacl1","Version":"2.2.53-10","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libapt-pkg6.0","Version":"2.2.4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libattr1","Version":"1:2.4.48-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libaudit-common","Version":"1:3.0-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libaudit1","Version":"1:3.0-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libblkid1","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libbrotli1","Version":"1.0.9-2+b2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libbsd0","Version":"0.11.3-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libbz2-1.0","Version":"1.0.8-4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libc-bin","Version":"2.31-13+deb11u5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libc6","Version":"2.31-13+deb11u5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libcap-ng0","Version":"0.7.9-2.2+b1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libcom-err2","Version":"1.46.2-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libcrypt1","Version":"1:4.4.18-4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libcurl4","Version":"7.74.0-1.3+deb11u7","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libdb5.3","Version":"5.3.28+dfsg1-0.8","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libdebconfclient0","Version":"0.260","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libdeflate0","Version":"1.7-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libexpat1","Version":"2.2.10-2+deb11u5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libext2fs2","Version":"1.46.2-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libffi7","Version":"3.3-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libfontconfig1","Version":"2.13.1-4.2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libfreetype6","Version":"2.10.4+dfsg-1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgcc-s1","Version":"10.2.1-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgcrypt20","Version":"1.8.7-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgd3","Version":"2.3.0-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgeoip1","Version":"1.6.12-7","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgmp10","Version":"2:6.2.1+dfsg-1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgnutls30","Version":"3.7.1-5+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgpg-error0","Version":"1.38-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgssapi-krb5-2","Version":"1.18.3-6+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libhogweed6","Version":"3.7.3-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libicu67","Version":"67.1-7","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libidn2-0","Version":"2.3.0-5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libjbig0","Version":"2.1-3.1+b2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libjpeg62-turbo","Version":"1:2.0.6-4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libk5crypto3","Version":"1.18.3-6+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libkeyutils1","Version":"1.6.1-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libkrb5-3","Version":"1.18.3-6+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libkrb5support0","Version":"1.18.3-6+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libldap-2.4-2","Version":"2.4.57+dfsg-3+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"liblz4-1","Version":"1.9.3-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"liblzma5","Version":"5.2.5-2.1~deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libmd0","Version":"1.0.3-3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libmount1","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libnettle8","Version":"3.7.3-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libnghttp2-14","Version":"1.43.0-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libnsl2","Version":"1.3.0-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libp11-kit0","Version":"0.23.22-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpam-modules","Version":"1.4.0-9+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpam-modules-bin","Version":"1.4.0-9+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpam-runtime","Version":"1.4.0-9+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpam0g","Version":"1.4.0-9+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpcre2-8-0","Version":"10.36-2+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpcre3","Version":"2:8.39-13","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpng16-16","Version":"1.6.37-3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpsl5","Version":"0.21.0-1.2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libreadline8","Version":"8.1-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"librtmp1","Version":"2.4+20151223.gitfa8646d.1-2+b2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsasl2-2","Version":"2.1.27+dfsg-2.1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsasl2-modules-db","Version":"2.1.27+dfsg-2.1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libseccomp2","Version":"2.5.1-1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libselinux1","Version":"3.1-3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsemanage-common","Version":"3.1-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsemanage1","Version":"3.1-1+b2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsepol1","Version":"3.1-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsmartcols1","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libss2","Version":"1.46.2-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libssh2-1","Version":"1.9.0-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libssl1.1","Version":"1.1.1n-0+deb11u4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libstdc++6","Version":"10.2.1-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsystemd0","Version":"247.3-7+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libtasn1-6","Version":"4.16.0-2+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libtiff5","Version":"4.2.0-1+deb11u4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libtinfo6","Version":"6.2+20201114-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libtirpc-common","Version":"1.3.1-1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libtirpc3","Version":"1.3.1-1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libudev1","Version":"247.3-7+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libunistring2","Version":"0.9.10-4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libuuid1","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libwebp6","Version":"0.6.1-2.1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libx11-6","Version":"2:1.7.2-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libx11-data","Version":"2:1.7.2-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libxau6","Version":"1:1.0.9-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libxcb1","Version":"1.14-3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libxdmcp6","Version":"1:1.1.2-3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libxml2","Version":"2.9.10+dfsg-6.7+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libxpm4","Version":"1:3.5.12-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libxslt1.1","Version":"1.1.34-4+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libxxhash0","Version":"0.8.0-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libzstd1","Version":"1.4.8+dfsg-2.1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"login","Version":"1:4.8.1-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"logsave","Version":"1.46.2-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"lsb-base","Version":"11.1.0","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"mawk","Version":"1.3.4.20200120-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"mount","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"ncurses-base","Version":"6.2+20201114-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"ncurses-bin","Version":"6.2+20201114-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"nginx","Version":"1.23.4-1~bullseye","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"nginx-module-geoip","Version":"1.23.4-1~bullseye","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"nginx-module-image-filter","Version":"1.23.4-1~bullseye","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"nginx-module-njs","Version":"1.23.4+0.7.11-1~bullseye","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"nginx-module-xslt","Version":"1.23.4-1~bullseye","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"openssl","Version":"1.1.1n-0+deb11u4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"passwd","Version":"1:4.8.1-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"perl-base","Version":"5.32.1-4+deb11u2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"readline-common","Version":"8.1-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"sed","Version":"4.7-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"sensible-utils","Version":"0.0.14","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"sysvinit-utils","Version":"2.96-7+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"tar","Version":"1.34+dfsg-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"tzdata","Version":"2021a-1+deb11u9","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"ucf","Version":"3.0043","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"util-linux","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"zlib1g","Version":"1:1.2.11.dfsg-2+deb11u2","Type":"deb","SourceName":null,"SourceVersion":null}]},"974d5eaa68af1c570969f838d018fe5033028a407a5bc40feccb2f89e67c46cc":{"ParentLayerId":"3b7108d2aa0842520eeda0c92851c110b88fec39d145f4260c04c7bcdf951477","Packages":[]},"a7f067b2d2918dfc792c165b72b941ee7163631614eceb0e580d0c958e8f99ac":{"ParentLayerId":"974d5eaa68af1c570969f838d018fe5033028a407a5bc40feccb2f89e67c46cc","Packages":[]},"b26c1a98d34907db067ec54b00af709c9dfa7cd09d2b07480dca3388377dbed3":{"ParentLayerId":"a7f067b2d2918dfc792c165b72b941ee7163631614eceb0e580d0c958e8f99ac","Packages":[]},"f01669c1d8570cefca5a1c09914dfa1ae3736053ab4571353c2a584b5b1119ca":{"ParentLayerId":"b26c1a98d34907db067ec54b00af709c9dfa7cd09d2b07480dca3388377dbed3","Packages":[{"Name":"adduser","Version":"3.118","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"apt","Version":"2.2.4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"base-files","Version":"11.1+deb11u6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"base-passwd","Version":"3.5.51","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"bash","Version":"5.1-2+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"bsdutils","Version":"1:2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"coreutils","Version":"8.32-4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"dash","Version":"0.5.11+git20200708+dd9ef66-5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"debconf","Version":"1.5.77","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"debian-archive-keyring","Version":"2021.1.1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"debianutils","Version":"4.11.2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"diffutils","Version":"1:3.7-5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"dpkg","Version":"1.20.12","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"e2fsprogs","Version":"1.46.2-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"findutils","Version":"4.8.0-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"gcc-10-base","Version":"10.2.1-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"gcc-9-base","Version":"9.3.0-22","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"gpgv","Version":"2.2.27-2+deb11u2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"grep","Version":"3.6-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"gzip","Version":"1.10-4+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"hostname","Version":"3.23","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"init-system-helpers","Version":"1.60","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libacl1","Version":"2.2.53-10","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libapt-pkg6.0","Version":"2.2.4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libattr1","Version":"1:2.4.48-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libaudit-common","Version":"1:3.0-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libaudit1","Version":"1:3.0-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libblkid1","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libbz2-1.0","Version":"1.0.8-4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libc-bin","Version":"2.31-13+deb11u5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libc6","Version":"2.31-13+deb11u5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libcap-ng0","Version":"0.7.9-2.2+b1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libcom-err2","Version":"1.46.2-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libcrypt1","Version":"1:4.4.18-4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libdb5.3","Version":"5.3.28+dfsg1-0.8","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libdebconfclient0","Version":"0.260","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libext2fs2","Version":"1.46.2-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libffi7","Version":"3.3-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgcc-s1","Version":"10.2.1-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgcrypt20","Version":"1.8.7-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgmp10","Version":"2:6.2.1+dfsg-1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgnutls30","Version":"3.7.1-5+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgpg-error0","Version":"1.38-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libgssapi-krb5-2","Version":"1.18.3-6+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libhogweed6","Version":"3.7.3-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libidn2-0","Version":"2.3.0-5","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libk5crypto3","Version":"1.18.3-6+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libkeyutils1","Version":"1.6.1-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libkrb5-3","Version":"1.18.3-6+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libkrb5support0","Version":"1.18.3-6+deb11u3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"liblz4-1","Version":"1.9.3-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"liblzma5","Version":"5.2.5-2.1~deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libmount1","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libnettle8","Version":"3.7.3-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libnsl2","Version":"1.3.0-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libp11-kit0","Version":"0.23.22-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpam-modules","Version":"1.4.0-9+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpam-modules-bin","Version":"1.4.0-9+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpam-runtime","Version":"1.4.0-9+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpam0g","Version":"1.4.0-9+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpcre2-8-0","Version":"10.36-2+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libpcre3","Version":"2:8.39-13","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libseccomp2","Version":"2.5.1-1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libselinux1","Version":"3.1-3","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsemanage-common","Version":"3.1-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsemanage1","Version":"3.1-1+b2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsepol1","Version":"3.1-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsmartcols1","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libss2","Version":"1.46.2-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libssl1.1","Version":"1.1.1n-0+deb11u4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libstdc++6","Version":"10.2.1-6","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libsystemd0","Version":"247.3-7+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libtasn1-6","Version":"4.16.0-2+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libtinfo6","Version":"6.2+20201114-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libtirpc-common","Version":"1.3.1-1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libtirpc3","Version":"1.3.1-1+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libudev1","Version":"247.3-7+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libunistring2","Version":"0.9.10-4","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libuuid1","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libxxhash0","Version":"0.8.0-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"libzstd1","Version":"1.4.8+dfsg-2.1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"login","Version":"1:4.8.1-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"logsave","Version":"1.46.2-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"lsb-base","Version":"11.1.0","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"mawk","Version":"1.3.4.20200120-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"mount","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"ncurses-base","Version":"6.2+20201114-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"ncurses-bin","Version":"6.2+20201114-2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"passwd","Version":"1:4.8.1-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"perl-base","Version":"5.32.1-4+deb11u2","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"sed","Version":"4.7-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"sysvinit-utils","Version":"2.96-7+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"tar","Version":"1.34+dfsg-1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"tzdata","Version":"2021a-1+deb11u9","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"util-linux","Version":"2.36.1-8+deb11u1","Type":"deb","SourceName":null,"SourceVersion":null},{"Name":"zlib1g","Version":"1:1.2.11.dfsg-2+deb11u2","Type":"deb","SourceName":null,"SourceVersion":null}]}}}}
+{
+    "ScanMetadata": {
+        "StartTime": "2023-04-19T13:41:49.619745Z",
+        "ScanPath": "/Users/danielgreenspan/RiderProjects/sca-resolver/src/ScaResolver/bin/Debug/net6.0/ex4",
+        "ScanArguments": {
+            "ProjectDownloadUrl": null,
+            "ScanId": "2efbb039-a68d-4cd7-a715-067cc58331e5",
+            "ProjectId": "2dd56fc1-751f-4469-8032-afa2767ae416",
+            "TenantId": "0",
+            "ExecutionId": "0",
+            "ExcludePatterns": {
+                "Patterns": []
+            },
+            "IgnoreDevDependencies": false,
+            "ShouldResolveDependenciesLocally": true,
+            "NpmPartialResultsFallbackScriptPath": null,
+            "EnvironmentVariables": {},
+            "ShouldUseHoistFlagWhenUseLerna": true,
+            "ShouldResolvePartialResults": false,
+            "ProjectRelativePathsToPythonVersionsMapping": {},
+            "AdditionalScanArguments": {},
+            "ExtractArchives": [
+                "zip",
+                "ear",
+                "war"
+            ],
+            "ExtractDepth": 1,
+            "GradleExcludedScopes": [],
+            "GradleIncludedScopes": [],
+            "GradleDevDependenciesScopes": [],
+            "GradleModulesToIgnore": [],
+            "GradleModulesToInclude": [],
+            "GradlePluginDependenciesScopes": [],
+            "Proxies": {},
+            "PipDepTreeVersion": null,
+            "NugetCliPath": "",
+            "IvyReportTarget": null,
+            "IvyReportFilesDir": null,
+            "EnableContainerScan": true,
+            "ContainersImages": [
+                "nginx:latest"
+            ],
+            "ContainersImagesCachePath": "/Users/danielgreenspan/RiderProjects/sca-resolver/src/ScaResolver/bin/Debug/net6.0/cache",
+            "OverrideDefaultExcludePattern": false,
+            "ScanTimeoutInSeconds": 0,
+            "IsUsingSyft": false,
+            "UsingDeprecatedConfigurationIni": false,
+            "NetRcPath": null,
+            "RequestTimestampUtc": "0001-01-01T00:00:00"
+        },
+        "ScanDiagnostics": {
+            "EnvironmentVariables": "",
+            "ResolveDependenciesForFile[nginx:latest].scopeMilliseconds": 11513,
+            "scopeMilliseconds": 11955,
+            "FolderAnalyzer.scopeMilliseconds": 97,
+            "FolderAnalyzer.analyzedFilesCount": 1.0,
+            "ShouldResolvePartialResults": "False",
+            "ShouldResolveDependenciesLocally": true
+        },
+        "PackageType": "",
+        "PackageName": "",
+        "PackageVersion": ""
+    },
+    "AnalyzedFiles": [
+        {
+            "RelativePath": ".DS_Store",
+            "Size": 6148,
+            "Fingerprints": [
+                {
+                    "Type": "Sha1",
+                    "Value": "ed1ac977bb9736f5e506ee9a7efe0f5400dd3ac3"
+                }
+            ]
+        }
+    ],
+    "DependencyResolutionResults": [],
+    "ContainerResolutionResults": {
+        "ImagePaths": [
+            {
+                "NodeId": "ef5d453a-46ef-4dd9-bfa8-1e18e3bf1a71",
+                "Path": "N/A",
+                "Stages": [
+                    {
+                        "ContainerRegistry": 1,
+                        "ContainerRegistryHost": "registry.hub.docker.com",
+                        "ImageName": "python",
+                        "ImageTag": "3.8-slim",
+                        "ImageId": "sha256:40716b3f0e83e61be9b7898436765eaf8d8c4b6c5647ea8f54fbc2b38666c2a6",
+                        "Name": "",
+                        "LayerId": "b7957226f73cfc0aca08776c7c890253b2a5c04896be4e6014bcbdde301b9179",
+                        "Distribution": "debian:11"
+                    }
+                ]
+            }
+        ],
+        "Layers": {
+            "13594e6f72105befed183626c2e1c6d7b31d7fc2c0f7e682d7fb5f2a75e5c4a2": {
+                "ParentLayerId": "",
+                "Packages": []
+            },
+            "ec31fcef0d247995ac7a59116b8ca49c76adc3c4daf431aa6802a5c4c2a24860": {
+                "ParentLayerId": "13594e6f72105befed183626c2e1c6d7b31d7fc2c0f7e682d7fb5f2a75e5c4a2",
+                "Packages": []
+            },
+            "b1bc83948f0c4cbd88aa0a428d40b802ad91882fa5dd8631287e396ff94e4d3b": {
+                "ParentLayerId": "ec31fcef0d247995ac7a59116b8ca49c76adc3c4daf431aa6802a5c4c2a24860",
+                "Packages": []
+            },
+            "95c451c67bdde572804ff46a4de72d5890f8090c5924fcea7de21323cf13d658": {
+                "ParentLayerId": "b1bc83948f0c4cbd88aa0a428d40b802ad91882fa5dd8631287e396ff94e4d3b",
+                "Packages": []
+            },
+            "b7957226f73cfc0aca08776c7c890253b2a5c04896be4e6014bcbdde301b9179": {
+                "ParentLayerId": "95c451c67bdde572804ff46a4de72d5890f8090c5924fcea7de21323cf13d658",
+                "Packages": [
+                    {
+                        "Name": "adduser",
+                        "Version": "3.118",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "apt",
+                        "Version": "2.2.4",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2",
+                            "GPLv2+"
+                        ]
+                    },
+                    {
+                        "Name": "base-files",
+                        "Version": "11.1+deb11u7",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL"
+                        ]
+                    },
+                    {
+                        "Name": "base-passwd",
+                        "Version": "3.5.51",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "bash",
+                        "Version": "5.1-2+deb11u1",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-3"
+                        ]
+                    },
+                    {
+                        "Name": "bsdutils",
+                        "Version": "1:2.36.1-8+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "util-linux",
+                        "SourceVersion": "2.36.1-8+deb11u1",
+                        "Licenses": [
+                            "BSD-2-clause",
+                            "BSD-3-clause",
+                            "BSD-4-clause",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL",
+                            "LGPL-2",
+                            "LGPL-2+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "LGPL-3",
+                            "LGPL-3+",
+                            "MIT",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "ca-certificates",
+                        "Version": "20210119",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2",
+                            "GPL-2+",
+                            "MPL-2.0"
+                        ]
+                    },
+                    {
+                        "Name": "coreutils",
+                        "Version": "8.32-4",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-3"
+                        ]
+                    },
+                    {
+                        "Name": "dash",
+                        "Version": "0.5.11+git20200708+dd9ef66-5",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "BSD-3-Clause",
+                            "BSD-3-clause",
+                            "Expat",
+                            "FSFUL",
+                            "FSFULLR",
+                            "GPL-2",
+                            "GPL-2+",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "debconf",
+                        "Version": "1.5.77",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "BSD-2-clause"
+                        ]
+                    },
+                    {
+                        "Name": "debian-archive-keyring",
+                        "Version": "2021.1.1+deb11u1",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL"
+                        ]
+                    },
+                    {
+                        "Name": "debianutils",
+                        "Version": "4.11.2",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "diffutils",
+                        "Version": "1:3.7-5",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GFDL",
+                            "GPL"
+                        ]
+                    },
+                    {
+                        "Name": "dpkg",
+                        "Version": "1.20.12",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "BSD-2-clause",
+                            "GPL-2",
+                            "GPL-2+",
+                            "public-domain-md5",
+                            "public-domain-s-s-d"
+                        ]
+                    },
+                    {
+                        "Name": "e2fsprogs",
+                        "Version": "1.46.2-2",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2",
+                            "LGPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "findutils",
+                        "Version": "4.8.0-1",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GFDL-1.3",
+                            "GPL-3"
+                        ]
+                    },
+                    {
+                        "Name": "gcc-10-base",
+                        "Version": "10.2.1-6",
+                        "Type": "deb",
+                        "SourceName": "gcc-10",
+                        "SourceVersion": "10.2.1-6",
+                        "Licenses": [
+                            "Artistic",
+                            "GFDL-1.2",
+                            "GPL",
+                            "GPL-2",
+                            "GPL-3",
+                            "LGPL"
+                        ]
+                    },
+                    {
+                        "Name": "gcc-9-base",
+                        "Version": "9.3.0-22",
+                        "Type": "deb",
+                        "SourceName": "gcc-9",
+                        "SourceVersion": "9.3.0-22",
+                        "Licenses": [
+                            "Artistic",
+                            "GFDL-1.2",
+                            "GPL",
+                            "GPL-2",
+                            "GPL-3",
+                            "LGPL",
+                            "LGPL-2.1+"
+                        ]
+                    },
+                    {
+                        "Name": "gpgv",
+                        "Version": "2.2.27-2+deb11u2",
+                        "Type": "deb",
+                        "SourceName": "gnupg2",
+                        "SourceVersion": "2.2.27-2+deb11u2",
+                        "Licenses": [
+                            "BSD-3-clause",
+                            "CC0-1.0",
+                            "Expat",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "LGPL-3",
+                            "LGPL-3+",
+                            "RFC-Reference",
+                            "TinySCHEME",
+                            "permissive"
+                        ]
+                    },
+                    {
+                        "Name": "grep",
+                        "Version": "3.6-1+deb11u1",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-3",
+                            "GPL-3+"
+                        ]
+                    },
+                    {
+                        "Name": "gzip",
+                        "Version": "1.10-4+deb11u1",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "FSF-manpages",
+                            "GFDL-1.3+-no-invariant",
+                            "GFDL-3",
+                            "GPL-3",
+                            "GPL-3+"
+                        ]
+                    },
+                    {
+                        "Name": "hostname",
+                        "Version": "3.23",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "init-system-helpers",
+                        "Version": "1.60",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "BSD-3-clause",
+                            "GPL-2",
+                            "GPL-2+"
+                        ]
+                    },
+                    {
+                        "Name": "libacl1",
+                        "Version": "2.2.53-10",
+                        "Type": "deb",
+                        "SourceName": "acl",
+                        "SourceVersion": "2.2.53-10",
+                        "Licenses": [
+                            "GPL-2",
+                            "GPL-2+",
+                            "LGPL-2+",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libapt-pkg6.0",
+                        "Version": "2.2.4",
+                        "Type": "deb",
+                        "SourceName": "apt",
+                        "SourceVersion": "2.2.4",
+                        "Licenses": [
+                            "GPL-2",
+                            "GPLv2+"
+                        ]
+                    },
+                    {
+                        "Name": "libattr1",
+                        "Version": "1:2.4.48-6",
+                        "Type": "deb",
+                        "SourceName": "attr",
+                        "SourceVersion": "1:2.4.48-6",
+                        "Licenses": [
+                            "GPL-2",
+                            "GPL-2+",
+                            "LGPL-2+",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libaudit-common",
+                        "Version": "1:3.0-2",
+                        "Type": "deb",
+                        "SourceName": "audit",
+                        "SourceVersion": "1:3.0-2",
+                        "Licenses": [
+                            "GPL-1",
+                            "GPL-2",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libaudit1",
+                        "Version": "1:3.0-2",
+                        "Type": "deb",
+                        "SourceName": "audit",
+                        "SourceVersion": "1:3.0-2",
+                        "Licenses": [
+                            "GPL-1",
+                            "GPL-2",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libblkid1",
+                        "Version": "2.36.1-8+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "util-linux",
+                        "SourceVersion": "2.36.1-8+deb11u1",
+                        "Licenses": [
+                            "BSD-2-clause",
+                            "BSD-3-clause",
+                            "BSD-4-clause",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL",
+                            "LGPL-2",
+                            "LGPL-2+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "LGPL-3",
+                            "LGPL-3+",
+                            "MIT",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "libbz2-1.0",
+                        "Version": "1.0.8-4",
+                        "Type": "deb",
+                        "SourceName": "bzip2",
+                        "SourceVersion": "1.0.8-4",
+                        "Licenses": [
+                            "BSD-variant",
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "libc-bin",
+                        "Version": "2.31-13+deb11u6",
+                        "Type": "deb",
+                        "SourceName": "glibc",
+                        "SourceVersion": "2.31-13+deb11u6",
+                        "Licenses": [
+                            "GPL-2",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libc6",
+                        "Version": "2.31-13+deb11u6",
+                        "Type": "deb",
+                        "SourceName": "glibc",
+                        "SourceVersion": "2.31-13+deb11u6",
+                        "Licenses": [
+                            "GPL-2",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libcap-ng0",
+                        "Version": "0.7.9-2.2+b1",
+                        "Type": "deb",
+                        "SourceName": "libcap-ng",
+                        "SourceVersion": "0.7.9-2.2",
+                        "Licenses": [
+                            "GPL-2",
+                            "GPL-3",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libcom-err2",
+                        "Version": "1.46.2-2",
+                        "Type": "deb",
+                        "SourceName": "e2fsprogs",
+                        "SourceVersion": "1.46.2-2",
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "libcrypt1",
+                        "Version": "1:4.4.18-4",
+                        "Type": "deb",
+                        "SourceName": "libxcrypt",
+                        "SourceVersion": "1:4.4.18-4",
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "libdb5.3",
+                        "Version": "5.3.28+dfsg1-0.8",
+                        "Type": "deb",
+                        "SourceName": "db5.3",
+                        "SourceVersion": "5.3.28+dfsg1-0.8",
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "libdebconfclient0",
+                        "Version": "0.260",
+                        "Type": "deb",
+                        "SourceName": "cdebconf",
+                        "SourceVersion": "0.260",
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "libexpat1",
+                        "Version": "2.2.10-2+deb11u5",
+                        "Type": "deb",
+                        "SourceName": "expat",
+                        "SourceVersion": "2.2.10-2+deb11u5",
+                        "Licenses": [
+                            "MIT"
+                        ]
+                    },
+                    {
+                        "Name": "libext2fs2",
+                        "Version": "1.46.2-2",
+                        "Type": "deb",
+                        "SourceName": "e2fsprogs",
+                        "SourceVersion": "1.46.2-2",
+                        "Licenses": [
+                            "GPL-2",
+                            "LGPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "libffi7",
+                        "Version": "3.3-6",
+                        "Type": "deb",
+                        "SourceName": "libffi",
+                        "SourceVersion": "3.3-6",
+                        "Licenses": [
+                            "GPL"
+                        ]
+                    },
+                    {
+                        "Name": "libgcc-s1",
+                        "Version": "10.2.1-6",
+                        "Type": "deb",
+                        "SourceName": "gcc-10",
+                        "SourceVersion": "10.2.1-6",
+                        "Licenses": [
+                            "Artistic",
+                            "GFDL-1.2",
+                            "GPL",
+                            "GPL-2",
+                            "GPL-3",
+                            "LGPL"
+                        ]
+                    },
+                    {
+                        "Name": "libgcrypt20",
+                        "Version": "1.8.7-6",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2",
+                            "LGPL"
+                        ]
+                    },
+                    {
+                        "Name": "libgdbm6",
+                        "Version": "1.19-2",
+                        "Type": "deb",
+                        "SourceName": "gdbm",
+                        "SourceVersion": "1.19-2",
+                        "Licenses": [
+                            "GFDL-NIV-1.3+",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "GPL-3+"
+                        ]
+                    },
+                    {
+                        "Name": "libgmp10",
+                        "Version": "2:6.2.1+dfsg-1+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "gmp",
+                        "SourceVersion": "2:6.2.1+dfsg-1+deb11u1",
+                        "Licenses": [
+                            "GPL",
+                            "GPL-2",
+                            "GPL-3",
+                            "LGPL-3"
+                        ]
+                    },
+                    {
+                        "Name": "libgnutls30",
+                        "Version": "3.7.1-5+deb11u3",
+                        "Type": "deb",
+                        "SourceName": "gnutls28",
+                        "SourceVersion": "3.7.1-5+deb11u3",
+                        "Licenses": [
+                            "Apache-2.0",
+                            "BSD-3-Clause",
+                            "CC0",
+                            "Expat",
+                            "GFDL-1.3",
+                            "GPL",
+                            "GPL-3",
+                            "GPLv3+",
+                            "LGPL",
+                            "LGPL-3",
+                            "LGPLv2.1+",
+                            "LGPLv3+_or_GPLv2+",
+                            "The"
+                        ]
+                    },
+                    {
+                        "Name": "libgpg-error0",
+                        "Version": "1.38-2",
+                        "Type": "deb",
+                        "SourceName": "libgpg-error",
+                        "SourceVersion": "1.38-2",
+                        "Licenses": [
+                            "BSD-3-clause",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "g10-permissive"
+                        ]
+                    },
+                    {
+                        "Name": "libgssapi-krb5-2",
+                        "Version": "1.18.3-6+deb11u3",
+                        "Type": "deb",
+                        "SourceName": "krb5",
+                        "SourceVersion": "1.18.3-6+deb11u3",
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "libhogweed6",
+                        "Version": "3.7.3-1",
+                        "Type": "deb",
+                        "SourceName": "nettle",
+                        "SourceVersion": "3.7.3-1",
+                        "Licenses": [
+                            "Expat",
+                            "GAP",
+                            "GPL",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3+",
+                            "LGPL",
+                            "LGPL-2",
+                            "LGPL-2+",
+                            "LGPL-3+",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "libidn2-0",
+                        "Version": "2.3.0-5",
+                        "Type": "deb",
+                        "SourceName": "libidn2",
+                        "SourceVersion": "2.3.0-5",
+                        "Licenses": [
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL-3",
+                            "LGPL-3+",
+                            "Unicode"
+                        ]
+                    },
+                    {
+                        "Name": "libk5crypto3",
+                        "Version": "1.18.3-6+deb11u3",
+                        "Type": "deb",
+                        "SourceName": "krb5",
+                        "SourceVersion": "1.18.3-6+deb11u3",
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "libkeyutils1",
+                        "Version": "1.6.1-2",
+                        "Type": "deb",
+                        "SourceName": "keyutils",
+                        "SourceVersion": "1.6.1-2",
+                        "Licenses": [
+                            "GPL-2",
+                            "GPL-2+",
+                            "LGPL-2",
+                            "LGPL-2+"
+                        ]
+                    },
+                    {
+                        "Name": "libkrb5-3",
+                        "Version": "1.18.3-6+deb11u3",
+                        "Type": "deb",
+                        "SourceName": "krb5",
+                        "SourceVersion": "1.18.3-6+deb11u3",
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "libkrb5support0",
+                        "Version": "1.18.3-6+deb11u3",
+                        "Type": "deb",
+                        "SourceName": "krb5",
+                        "SourceVersion": "1.18.3-6+deb11u3",
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "liblz4-1",
+                        "Version": "1.9.3-2",
+                        "Type": "deb",
+                        "SourceName": "lz4",
+                        "SourceVersion": "1.9.3-2",
+                        "Licenses": [
+                            "BSD-2-clause",
+                            "GPL-2",
+                            "GPL-2+"
+                        ]
+                    },
+                    {
+                        "Name": "liblzma5",
+                        "Version": "5.2.5-2.1~deb11u1",
+                        "Type": "deb",
+                        "SourceName": "xz-utils",
+                        "SourceVersion": "5.2.5-2.1~deb11u1",
+                        "Licenses": [
+                            "Autoconf",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "LGPL-2",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "PD",
+                            "PD-debian",
+                            "config-h",
+                            "noderivs",
+                            "permissive-fsf",
+                            "permissive-nowarranty",
+                            "probably-PD"
+                        ]
+                    },
+                    {
+                        "Name": "libmount1",
+                        "Version": "2.36.1-8+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "util-linux",
+                        "SourceVersion": "2.36.1-8+deb11u1",
+                        "Licenses": [
+                            "BSD-2-clause",
+                            "BSD-3-clause",
+                            "BSD-4-clause",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL",
+                            "LGPL-2",
+                            "LGPL-2+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "LGPL-3",
+                            "LGPL-3+",
+                            "MIT",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "libncursesw6",
+                        "Version": "6.2+20201114-2+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "ncurses",
+                        "SourceVersion": "6.2+20201114-2+deb11u1",
+                        "Licenses": [
+                            "BSD-3-clause",
+                            "MIT/X11",
+                            "X11"
+                        ]
+                    },
+                    {
+                        "Name": "libnettle8",
+                        "Version": "3.7.3-1",
+                        "Type": "deb",
+                        "SourceName": "nettle",
+                        "SourceVersion": "3.7.3-1",
+                        "Licenses": [
+                            "Expat",
+                            "GAP",
+                            "GPL",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3+",
+                            "LGPL",
+                            "LGPL-2",
+                            "LGPL-2+",
+                            "LGPL-3+",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "libnsl2",
+                        "Version": "1.3.0-2",
+                        "Type": "deb",
+                        "SourceName": "libnsl",
+                        "SourceVersion": "1.3.0-2",
+                        "Licenses": [
+                            "BSD-3-clause",
+                            "GPL-2",
+                            "GPL-2+-autoconf-exception",
+                            "GPL-2+-libtool-exception",
+                            "GPL-3",
+                            "GPL-3+-autoconf-exception",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "MIT",
+                            "permissive-autoconf-m4",
+                            "permissive-autoconf-m4-no-warranty",
+                            "permissive-configure",
+                            "permissive-fsf",
+                            "permissive-makefile-in"
+                        ]
+                    },
+                    {
+                        "Name": "libp11-kit0",
+                        "Version": "0.23.22-1",
+                        "Type": "deb",
+                        "SourceName": "p11-kit",
+                        "SourceVersion": "0.23.22-1",
+                        "Licenses": [
+                            "BSD-3-Clause",
+                            "ISC",
+                            "ISC+IBM",
+                            "permissive-like-automake-output",
+                            "same-as-rest-of-p11kit"
+                        ]
+                    },
+                    {
+                        "Name": "libpam-modules",
+                        "Version": "1.4.0-9+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "pam",
+                        "SourceVersion": "1.4.0-9+deb11u1",
+                        "Licenses": [
+                            "GPL"
+                        ]
+                    },
+                    {
+                        "Name": "libpam-modules-bin",
+                        "Version": "1.4.0-9+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "pam",
+                        "SourceVersion": "1.4.0-9+deb11u1",
+                        "Licenses": [
+                            "GPL"
+                        ]
+                    },
+                    {
+                        "Name": "libpam-runtime",
+                        "Version": "1.4.0-9+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "pam",
+                        "SourceVersion": "1.4.0-9+deb11u1",
+                        "Licenses": [
+                            "GPL"
+                        ]
+                    },
+                    {
+                        "Name": "libpam0g",
+                        "Version": "1.4.0-9+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "pam",
+                        "SourceVersion": "1.4.0-9+deb11u1",
+                        "Licenses": [
+                            "GPL"
+                        ]
+                    },
+                    {
+                        "Name": "libpcre2-8-0",
+                        "Version": "10.36-2+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "pcre2",
+                        "SourceVersion": "10.36-2+deb11u1",
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "libpcre3",
+                        "Version": "2:8.39-13",
+                        "Type": "deb",
+                        "SourceName": "pcre3",
+                        "SourceVersion": "2:8.39-13",
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "libreadline8",
+                        "Version": "8.1-1",
+                        "Type": "deb",
+                        "SourceName": "readline",
+                        "SourceVersion": "8.1-1",
+                        "Licenses": [
+                            "GFDL",
+                            "GPL-3"
+                        ]
+                    },
+                    {
+                        "Name": "libseccomp2",
+                        "Version": "2.5.1-1+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "libseccomp",
+                        "SourceVersion": "2.5.1-1+deb11u1",
+                        "Licenses": [
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libselinux1",
+                        "Version": "3.1-3",
+                        "Type": "deb",
+                        "SourceName": "libselinux",
+                        "SourceVersion": "3.1-3",
+                        "Licenses": [
+                            "GPL-2",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libsemanage-common",
+                        "Version": "3.1-1",
+                        "Type": "deb",
+                        "SourceName": "libsemanage",
+                        "SourceVersion": "3.1-1",
+                        "Licenses": [
+                            "GPL",
+                            "LGPL"
+                        ]
+                    },
+                    {
+                        "Name": "libsemanage1",
+                        "Version": "3.1-1+b2",
+                        "Type": "deb",
+                        "SourceName": "libsemanage",
+                        "SourceVersion": "3.1-1",
+                        "Licenses": [
+                            "GPL",
+                            "LGPL"
+                        ]
+                    },
+                    {
+                        "Name": "libsepol1",
+                        "Version": "3.1-1",
+                        "Type": "deb",
+                        "SourceName": "libsepol",
+                        "SourceVersion": "3.1-1",
+                        "Licenses": [
+                            "GPL",
+                            "LGPL"
+                        ]
+                    },
+                    {
+                        "Name": "libsmartcols1",
+                        "Version": "2.36.1-8+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "util-linux",
+                        "SourceVersion": "2.36.1-8+deb11u1",
+                        "Licenses": [
+                            "BSD-2-clause",
+                            "BSD-3-clause",
+                            "BSD-4-clause",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL",
+                            "LGPL-2",
+                            "LGPL-2+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "LGPL-3",
+                            "LGPL-3+",
+                            "MIT",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "libsqlite3-0",
+                        "Version": "3.34.1-3",
+                        "Type": "deb",
+                        "SourceName": "sqlite3",
+                        "SourceVersion": "3.34.1-3",
+                        "Licenses": [
+                            "GPL-2",
+                            "GPL-2+",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "libss2",
+                        "Version": "1.46.2-2",
+                        "Type": "deb",
+                        "SourceName": "e2fsprogs",
+                        "SourceVersion": "1.46.2-2",
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "libssl1.1",
+                        "Version": "1.1.1n-0+deb11u4",
+                        "Type": "deb",
+                        "SourceName": "openssl",
+                        "SourceVersion": "1.1.1n-0+deb11u4",
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "libstdc++6",
+                        "Version": "10.2.1-6",
+                        "Type": "deb",
+                        "SourceName": "gcc-10",
+                        "SourceVersion": "10.2.1-6",
+                        "Licenses": [
+                            "Artistic",
+                            "GFDL-1.2",
+                            "GPL",
+                            "GPL-2",
+                            "GPL-3",
+                            "LGPL"
+                        ]
+                    },
+                    {
+                        "Name": "libsystemd0",
+                        "Version": "247.3-7+deb11u2",
+                        "Type": "deb",
+                        "SourceName": "systemd",
+                        "SourceVersion": "247.3-7+deb11u2",
+                        "Licenses": [
+                            "CC0-1.0",
+                            "Expat",
+                            "GPL-2",
+                            "GPL-2+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "libtasn1-6",
+                        "Version": "4.16.0-2+deb11u1",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GFDL-1.3",
+                            "GPL-3",
+                            "LGPL",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libtinfo6",
+                        "Version": "6.2+20201114-2+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "ncurses",
+                        "SourceVersion": "6.2+20201114-2+deb11u1",
+                        "Licenses": [
+                            "BSD-3-clause",
+                            "MIT/X11",
+                            "X11"
+                        ]
+                    },
+                    {
+                        "Name": "libtirpc-common",
+                        "Version": "1.3.1-1+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "libtirpc",
+                        "SourceVersion": "1.3.1-1+deb11u1",
+                        "Licenses": [
+                            "BSD-3-Clause",
+                            "GPL-2",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libtirpc3",
+                        "Version": "1.3.1-1+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "libtirpc",
+                        "SourceVersion": "1.3.1-1+deb11u1",
+                        "Licenses": [
+                            "BSD-3-Clause",
+                            "GPL-2",
+                            "LGPL-2.1"
+                        ]
+                    },
+                    {
+                        "Name": "libudev1",
+                        "Version": "247.3-7+deb11u2",
+                        "Type": "deb",
+                        "SourceName": "systemd",
+                        "SourceVersion": "247.3-7+deb11u2",
+                        "Licenses": [
+                            "CC0-1.0",
+                            "Expat",
+                            "GPL-2",
+                            "GPL-2+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "libunistring2",
+                        "Version": "0.9.10-4",
+                        "Type": "deb",
+                        "SourceName": "libunistring",
+                        "SourceVersion": "0.9.10-4",
+                        "Licenses": [
+                            "FreeSoftware",
+                            "GFDL-1.2",
+                            "GFDL-1.2+",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL-3",
+                            "LGPL-3+",
+                            "MIT"
+                        ]
+                    },
+                    {
+                        "Name": "libuuid1",
+                        "Version": "2.36.1-8+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "util-linux",
+                        "SourceVersion": "2.36.1-8+deb11u1",
+                        "Licenses": [
+                            "BSD-2-clause",
+                            "BSD-3-clause",
+                            "BSD-4-clause",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL",
+                            "LGPL-2",
+                            "LGPL-2+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "LGPL-3",
+                            "LGPL-3+",
+                            "MIT",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "libxxhash0",
+                        "Version": "0.8.0-2",
+                        "Type": "deb",
+                        "SourceName": "xxhash",
+                        "SourceVersion": "0.8.0-2",
+                        "Licenses": [
+                            "BSD-2-clause",
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "libzstd1",
+                        "Version": "1.4.8+dfsg-2.1",
+                        "Type": "deb",
+                        "SourceName": "libzstd",
+                        "SourceVersion": "1.4.8+dfsg-2.1",
+                        "Licenses": [
+                            "BSD-3-clause",
+                            "Expat",
+                            "GPL-2",
+                            "zlib"
+                        ]
+                    },
+                    {
+                        "Name": "login",
+                        "Version": "1:4.8.1-1",
+                        "Type": "deb",
+                        "SourceName": "shadow",
+                        "SourceVersion": "1:4.8.1-1",
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "logsave",
+                        "Version": "1.46.2-2",
+                        "Type": "deb",
+                        "SourceName": "e2fsprogs",
+                        "SourceVersion": "1.46.2-2",
+                        "Licenses": [
+                            "GPL-2",
+                            "LGPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "lsb-base",
+                        "Version": "11.1.0",
+                        "Type": "deb",
+                        "SourceName": "lsb",
+                        "SourceVersion": "11.1.0",
+                        "Licenses": [
+                            "BSD-3-clause",
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "mawk",
+                        "Version": "1.3.4.20200120-2",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "mount",
+                        "Version": "2.36.1-8+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "util-linux",
+                        "SourceVersion": "2.36.1-8+deb11u1",
+                        "Licenses": [
+                            "BSD-2-clause",
+                            "BSD-3-clause",
+                            "BSD-4-clause",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL",
+                            "LGPL-2",
+                            "LGPL-2+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "LGPL-3",
+                            "LGPL-3+",
+                            "MIT",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "ncurses-base",
+                        "Version": "6.2+20201114-2+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "ncurses",
+                        "SourceVersion": "6.2+20201114-2+deb11u1",
+                        "Licenses": [
+                            "BSD-3-clause",
+                            "MIT/X11",
+                            "X11"
+                        ]
+                    },
+                    {
+                        "Name": "ncurses-bin",
+                        "Version": "6.2+20201114-2+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "ncurses",
+                        "SourceVersion": "6.2+20201114-2+deb11u1",
+                        "Licenses": [
+                            "BSD-3-clause",
+                            "MIT/X11",
+                            "X11"
+                        ]
+                    },
+                    {
+                        "Name": "netbase",
+                        "Version": "6.3",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "openssl",
+                        "Version": "1.1.1n-0+deb11u4",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "passwd",
+                        "Version": "1:4.8.1-1",
+                        "Type": "deb",
+                        "SourceName": "shadow",
+                        "SourceVersion": "1:4.8.1-1",
+                        "Licenses": [
+                            "GPL-2"
+                        ]
+                    },
+                    {
+                        "Name": "perl-base",
+                        "Version": "5.32.1-4+deb11u2",
+                        "Type": "deb",
+                        "SourceName": "perl",
+                        "SourceVersion": "5.32.1-4+deb11u2",
+                        "Licenses": [
+                            "Artistic",
+                            "Artistic-2",
+                            "Artistic-dist",
+                            "BSD-3-clause",
+                            "BSD-3-clause-GENERIC",
+                            "BSD-3-clause-with-weird-numbering",
+                            "BSD-4-clause-POWERDOG",
+                            "BZIP",
+                            "DONT-CHANGE-THE-GPL",
+                            "Expat",
+                            "GPL-1",
+                            "GPL-1+",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3+-WITH-BISON-EXCEPTION",
+                            "HSIEH-BSD",
+                            "HSIEH-DERIVATIVE",
+                            "LGPL-2.1",
+                            "REGCOMP",
+                            "REGCOMP,",
+                            "RRA-KEEP-THIS-NOTICE",
+                            "SDBM-PUBLIC-DOMAIN",
+                            "TEXT-TABS",
+                            "Unicode",
+                            "ZLIB"
+                        ]
+                    },
+                    {
+                        "Name": "pip",
+                        "Version": "22.0.4",
+                        "Type": "python",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "MIT"
+                        ]
+                    },
+                    {
+                        "Name": "python",
+                        "Version": "3.8.16",
+                        "Type": "binary",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "readline-common",
+                        "Version": "8.1-1",
+                        "Type": "deb",
+                        "SourceName": "readline",
+                        "SourceVersion": "8.1-1",
+                        "Licenses": [
+                            "GFDL",
+                            "GPL-3"
+                        ]
+                    },
+                    {
+                        "Name": "sed",
+                        "Version": "4.7-1",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-3"
+                        ]
+                    },
+                    {
+                        "Name": "setuptools",
+                        "Version": "57.5.0",
+                        "Type": "python",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "UNKNOWN"
+                        ]
+                    },
+                    {
+                        "Name": "sysvinit-utils",
+                        "Version": "2.96-7+deb11u1",
+                        "Type": "deb",
+                        "SourceName": "sysvinit",
+                        "SourceVersion": "2.96-7+deb11u1",
+                        "Licenses": [
+                            "GPL-2",
+                            "GPL-2+"
+                        ]
+                    },
+                    {
+                        "Name": "tar",
+                        "Version": "1.34+dfsg-1",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "GPL-2",
+                            "GPL-3"
+                        ]
+                    },
+                    {
+                        "Name": "tzdata",
+                        "Version": "2021a-1+deb11u10",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "util-linux",
+                        "Version": "2.36.1-8+deb11u1",
+                        "Type": "deb",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": [
+                            "BSD-2-clause",
+                            "BSD-3-clause",
+                            "BSD-4-clause",
+                            "GPL-2",
+                            "GPL-2+",
+                            "GPL-3",
+                            "GPL-3+",
+                            "LGPL",
+                            "LGPL-2",
+                            "LGPL-2+",
+                            "LGPL-2.1",
+                            "LGPL-2.1+",
+                            "LGPL-3",
+                            "LGPL-3+",
+                            "MIT",
+                            "public-domain"
+                        ]
+                    },
+                    {
+                        "Name": "wheel",
+                        "Version": "0.40.0",
+                        "Type": "python",
+                        "SourceName": null,
+                        "SourceVersion": null,
+                        "Licenses": []
+                    },
+                    {
+                        "Name": "zlib1g",
+                        "Version": "1:1.2.11.dfsg-2+deb11u2",
+                        "Type": "deb",
+                        "SourceName": "zlib",
+                        "SourceVersion": "1:1.2.11.dfsg-2+deb11u2",
+                        "Licenses": [
+                            "Zlib"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
